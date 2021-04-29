@@ -1,0 +1,45 @@
+.body {
+	display: flex;
+	flex-direction: column;
+	height: 40vh;
+	width: 55vw;
+	color: 'orange';
+	position: fixed;
+	left: 20%;
+	top: 20%;
+	margin-bottom: 20px;
+	background: yellow;
+	align-items: center;
+}
+
+.btn {
+	background: blue;
+	cursor: pointer;
+	padding: 10px;
+	margin-right: 10px;
+	color: white;
+}
+
+.btn:hover {
+	opacity: 0.6;
+}
+
+.btn_custom {
+	background: orange;
+	display: flex;
+	flex-direction: row;
+	width: 20%;
+	color: white;
+	margin: 20px 0;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.btn_custom:hover {
+	opacity: 0.6;
+}
+
+.btn_class {
+	display: flex;
+	flex-direction: row;
+}
